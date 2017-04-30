@@ -5,10 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Eric Skram</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+  <style>
+    .border-box * { box-sizing: border-box; }
+    .f2 { font-size: 2.25rem; }
+    .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
+    .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', sans-serif; }
+    .pa5 { padding: 4rem; }
+    .measure-wide { max-width: 34em; }
+    .t-space { color: #313940; }
+    .transition { transition: all 125ms ease-in-out; }
+    .underline {
+      text-decoration: none;
+      background-image: linear-gradient(to top,
+        rgba(0, 0, 0, 0) 5%,
+        rgba(200, 200, 200, 1) 5%,
+        rgba(200, 200, 200, 1) 10%,
+        rgba(0, 0, 0, 0) 10%
+      );
+    }
+    .underline:hover {
+      background-image: linear-gradient(to top,
+        rgba(0, 0, 0, 0) 5%,
+        rgba(119, 119, 119, 1) 5%,
+        rgba(119, 119, 119, 1) 10%,
+        rgba(0, 0, 0, 0) 10%
+      );
+    }
+  </style>
 </head>
-<body>
-  <article>
-    <h1>Eric is a product designer &amp; front-end engineer currently working at Fleetsmith.</h1>
-  </article>
+<body class="sans-serif border-box">
+  <header class="pa5">
+    <h1 class="f2 f-subheadline-ns measure-wide t-space">Eric is a product designer &amp; front-end engineer currently working at <a class="underline t-space transition" href="https://www.fleetsmith.com/" rel="nofollow noopener" target="_blank">Fleetsmith.</a></h1>
+  </header>
 </body>
 </html>
